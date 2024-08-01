@@ -1,0 +1,85 @@
+* {
+   
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  
+  }
+  
+  body {
+      display:flex;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      border-radius: 1rem;
+      grid-gap:1rem;
+      padding: 1rem;
+      
+  }
+  
+  .container{
+      border-radius: 2rem;
+      background-image: url(background\ pastel.jpg);
+  }
+  
+  .container h1{
+      text-align: center;
+      color: blue;
+      transform: translateY(-120px);
+      position: relative;
+      overflow: hidden;
+      animation: 0.9s titleanimation cubic-bezier(.91,.14,.56,1.09) forwards;
+  }
+  
+  @keyframes titleanimation {
+    to {
+        transform: initial; 
+    }
+  }
+  .background-container img{
+  margin-left: 320px;
+  margin-right: 350px;
+  /* align-items: center;
+  justify-content: center; */
+  max-width:60%;
+  border-radius: 1rem;
+  padding-bottom: 10px;
+  filter: grayscale(var(--value, 85%));
+  
+  
+  }
+  
+  .random-container input{
+      height: 50px;
+      width: 15%;
+      margin-left: 650px;
+      border-radius: 1rem;
+      cursor: pointer; 
+      text-align: center;
+      color: blue;
+  }
+
+  .random-container input:hover{
+    background-color: blueviolet;
+  }
+  .random-container-bis input{
+      height: 50px;
+      width: 15%;
+      margin-left: 650px;
+      border-radius: 1rem;
+      align-items:center;
+      text-align: center;
+      color: blue;
+  }
+  
+  .random-container p {
+      margin-left: 15px;
+      text-align: center;
+      color: blue;
+  }
+  
+  .random-container-bis p{
+      margin-left: 5px;
+      text-align: center;
+      color: blue;
+  }
+
+  
