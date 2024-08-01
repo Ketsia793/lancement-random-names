@@ -6,10 +6,10 @@ let names = [
         'Guillaume',
         'Helene', 
         'Ketsia',
-        'Kevin', 
+        'Kevin',
+        'Moussa', 
         'Romain',
-        'William', 
-        'Moussa'
+        'William'
      ];
         
 
